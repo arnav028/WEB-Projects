@@ -2,36 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar">
-<div class="logo"></div>
-<div class="link">
-    <a class="links" href="#">Our story</a>
-    <a class="links" href="#">Membership</a>
-    <a class="links" href="#">Write</a>
-    <a class="links" href="#">Sign in</a>
-    <button> Get started</button>
-</div>
-  </nav>
-  <div class="container">
-    <div class="a">Stay curious.</div>
-    <div class="b">Discover stories thinking and expertise from writers on any topic</div>
-    <button class="c">Start Reading</button>
-  </div>
-  <p>&#128200;Trending on Medium</p>
-
-  <div class="container1">
-<div class="d"><p>Harry <br>top 10 data & ai threads for 2024</p></div>
-<div class="e">The Body's "Fat Thermostat"Part1</div>
-<div class="f"> Enhancing interaction between Language Models and Graph Databases via a...</div>
-<div class="g"></div>
-<div class="h">5</div>
-<div class="i">6</div>
-
-  </div>
+    <div class="calculator">
+        <input type="text" id="inputBox" placeholder="0">
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
