@@ -1,0 +1,3 @@
+[submodule "WEB-Projects"]
+	path = WEB-Projects
+	url = https://github.com/arnav028/WEB-Projects.git
