@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(102.3deg, rgb(147, 39, 143) 5.9%, rgb(234, 172, 232) 64%, rgb(246, 219, 245) 89%);
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            color: white;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;   
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: white;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.04rem;
+        }
+        main hr {
+            border: 0;
+            background: black;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+            align-items: center;
+        }
+        .firstSection div {
+            width: 43%;
+        }
+        .leftSection {
+            font-size: 3rem;
+        }
+        .leftSection .btn{
+            padding: 12px 0;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        .leftSection .buttons{
+            padding: 50 0px;
+        }
+        .rightSection {
+            width: 80%;
+        }
+        .purple {
+            color: black;
+        }
+        #element {
+            color: black;
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+        .secondSection .box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80vw;
+            height: auto;
+            margin: 56px 0;
+            padding: 20px;
+        }
+        .secondSection .verticle {
+            flex: 1 1 20%; /* Each column takes up approximately 1/4th of the container */
+            height: auto;
+            margin: 20px;
+            background-color: transparent;
+            color: white;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            border: 1px solid white;
+        }
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -23px;
+            left: -9px;
+        }
+        .verticle-title {
+            width: 100%;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .verticle-desc {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        footer{
+            background-color: rgb(229, 174, 229);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer{
+
+            width: 223;
+        }
+        footer .footer-rights{
+text-align: center;
+color: black;
+padding: 12px 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankur's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, This is <span class="purple">ankur singh</span> and I am a passionate 
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="l.png.png" width="600px" alt="">
+            </div>
+        </section>
+        <h1>Work Experience</h1>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="z.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor, rem maxime deleniti quasi quibusdam repudiandae voluptates libero debitis harum magni, eveniet tempora est quo. Dignissimos rerum at dolorem illum?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="z.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor, rem maxime deleniti quasi quibusdam repudiandae voluptates libero debitis harum magni, eveniet tempora est quo. Dignissimos rerum at dolorem illum?
+                    </div>
+                </div>
+                <div class="verticle">
+                    Content Writer
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="z.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor, rem maxime deleniti quasi quibusdam repudiandae voluptates libero debitis harum magni, eveniet tempora est quo. Dignissimos rerum at dolorem illum?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="z.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor, rem maxime deleniti quasi quibusdam repudiandae voluptates libero debitis harum magni, eveniet tempora est quo. Dignissimos rerum at dolorem illum?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+<div class="footer">
+    <div class="footer-first">
+        <h3>Ankur's Developer Portfolio</h3>
+    </div>
+    <div class="footer-second">
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Contact</li>
+</ul>
+
+    </div>
+    <div class="footer-third">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="footer-fourth">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="footer-rights">
+    Copyrights &#169; ankursportfolio.com | All rights reserved
+</div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Freelancer', 'Content Writer', 'SEO Expert'],
+            typeSpeed: 50,
+        });
+
+   
+    </script>
+    
+</body>
+</html>

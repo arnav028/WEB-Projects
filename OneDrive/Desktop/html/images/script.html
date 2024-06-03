@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Chooser</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 50px;
+        text-align: center;
+    }
+    #fileInput {
+        display: none;
+    }
+    #fileLabel {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #selectedImage {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<input type="file" id="fileInput" accept="image/*" onchange="displayImage(event)">
+<label for="fileInput" id="fileLabel">Choose File</label>
+<img id="selectedImage" src="" alt="Selected Image">
+
+<script>
+function displayImage(event) {
+    let selectedFile = event.target.files[0];
+    let reader = new FileReader();
+
+    let imageTag = document.getElementById("selectedImage");
+ 
+    reader.onload = function(event) {
+        imageTag.src = event.target.result;
+    };
+    
+    reader.readAsDataURL(selectedFile);
+}
+</script>
+
+</body>
+</html>
+ -->
