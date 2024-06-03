@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #box1{background-color: brown; height: 60px; align-self: flex-end;}
+  #box2{background-color: yellow; height: 85px; width: 6%;}
+  #box3{background-color: greenyellow; align-self: flex-end;}
+  #box4{background-color: pink;}
+  body{
+    text-align: center;
+  }
+  div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+  }
+  #container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:  row-reverse;
+   flex-wrap: wrap;
+   /*  */     align-content: center 
+
+     align-items: self-end;
+     }
+</style>
+<body>
+<h1>Flex Playground</h1>
+<div id="container">
+  <div id="box1">box1</div>
+  <div id="box2">box2</div>
+  <div id="box3">box3</div>
+  <div id="box4">box4</div>
+</div>
+</body>
+</html>
