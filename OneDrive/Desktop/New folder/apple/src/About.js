@@ -1,23 +1,17 @@
 import React from "react";
 /* import "./index.css";
  */
-const About = ()=>{
-const boxCSS = {
-    Width: "300px",
-    height: "300px",
-    backgroundColor: "purple",
-    color: "white",
-    margin: "auto"
-}
+const About = (props)=>{
+console.log(props);
+
 
     return(
 
 
         <>     
-        <div className="box" style={boxCSS} >  
+        <div>  
 
-         <h2 style={{ color:"red", backgroundColor:"violet"}} >About us bhi ahi gya</h2>
-         <p>code with ankur papa</p>
+         <h2>About made by : {props.hobby}{props.dish}</h2>
          </div>
 
 </>
